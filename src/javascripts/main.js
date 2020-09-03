@@ -1,8 +1,9 @@
+import build from './components/buildQuadrant';
+
 import '../styles/main.scss';
 
 const init = () => {
-  $('#app').html('<h1>connected!</h1>');
-  console.log('connected!');
+  build.buildQuadrant('eat', 'healthy', 'unhealthy', '100');
 };
 
 init();
